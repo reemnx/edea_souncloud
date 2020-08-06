@@ -42,12 +42,20 @@ function Home(props) {
         localStorage.setItem('layout' , JSON.stringify(isListView))
     }, [isListView])
 
-    async function onSearch(searchWord='') {
+    useEffect(() => {
+        
+
+    }, [tracks])
+
+    async function onSearch(keyword) {
+        if(typeof keyword !== 'string') {
+            keyword = null ;
+        }
         if (!searchParam) return
         updateSearchHistory()
         try {
             let tracksToSet = await 
-            axios.get(`https://api.soundcloud.com/tracks?linked_partitioning=&client_id=ggX0UomnLs0VmW7qZnCzw&offset=${offset}&q=${searchWord? searchWord : searchParam}&limit=6`)
+            axios.get(`https://api.soundcloud.com/tracks?linked_partitioning=&client_id=ggX0UomnLs0VmW7qZnCzw&offset=${offset}&q=${keyword? keyword : searchParam}&limit=6`)
             setTracks(tracksToSet.data.collection)
         } catch (err) {
             console.log('There is an error to fetch tracks:', err);
@@ -76,9 +84,9 @@ function Home(props) {
         toggleHistoryModal(isHistoryModalShown => !isHistoryModalShown)
     }
 
-    function searchAgain(searchWord) {
-        setSearchParam(searchWord)
-        onSearch(searchWord)
+    function searchAgain(keyword) {
+        setSearchParam(keyword)
+        onSearch(keyword)
     }
 
     function onPlayTrack(track) {
@@ -94,7 +102,7 @@ function Home(props) {
                     <div className="search-box flex align-center space-between">
 
                         <div className="flex align-center">
-                            <input type="text" placeholder="What whould you like to hear?" value={searchParam} onInput={onInput} />
+                            <input type="text" placeholder="What whould you like to hear?" value={searchParam} onChange={onInput} />
                             <button onClick={onSearch}>Go</button>
                         </div>
 

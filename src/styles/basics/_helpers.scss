@@ -124,13 +124,13 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
     justify-content: space-between;
 
     .track-preview {
-        width: 30%;
+        width: 350px;
         height: 347.6px;
-        margin-bottom: 50px;
+        margin-bottom: 170px;
 
         & img {
             width: 100%;
@@ -153,7 +153,7 @@
             color: white;
         }
 
-        .track-tags{
+        .track-tags {
             display: flex !important;
             align-items: center;
             width: 100%;
@@ -178,4 +178,24 @@
 
 .hidden {
     visibility: hidden;
+}
+
+@media (max-width: 600px) {
+    .content {
+        width: 100% !important;
+    }
+    .list {
+        max-height: 480px !important;
+        overflow-y: scroll;
+    }
+    .tile{
+        width: 90%;
+
+        .track-preview{
+            width: 100% !important;
+            margin-left: 37px;
+            margin-bottom: 140px;
+        }
+    }
+   
 }

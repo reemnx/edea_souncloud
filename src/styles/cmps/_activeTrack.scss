@@ -21,3 +21,10 @@
         }
     }
 }
+
+@media (max-width: 600px){
+    .active-track-modal{
+        transform: translateY(-15%);
+        width: 90% !important;
+    }
+}

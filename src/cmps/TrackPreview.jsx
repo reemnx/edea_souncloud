@@ -5,7 +5,7 @@ function TrackPreview(props) {
     const { track } = props
 
     function substrMax60(str) {
-        const shortenStr = str.substring(0, 60)
+        const shortenStr = str.substring(0, 40)
         return shortenStr + " " + "..."
     }
 
@@ -17,7 +17,7 @@ function TrackPreview(props) {
 
                 <div>
                     <p>{track.user.username}</p>
-                    <h5>{track.title.length > 60 ? substrMax60(track.title) : track.title}</h5>
+                    <h5>{track.title.length > 40 ? substrMax60(track.title) : track.title}</h5>
                 </div>
 
                 <div className="track-tags">
@@ -39,7 +39,7 @@ function TrackPreview(props) {
 
                 </div>
             </div>
-            <button onClick={() => props.onPlayTrack(track)}>Play Me</button>
+            <button onClick={() => props.onPlayTrack(track)}>Play</button>
         </div>
     )
 }
