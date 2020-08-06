@@ -9,7 +9,7 @@ function SearchHistory(props) {
             
             {(isHistoryModalShown && searchHistory.length > 0) && <div className="searches flex column">
                 {searchHistory.map((searchWord, idx) => {
-                    return <div className="history-item flex align-center">
+                    return <div className="history-item flex align-center" key={idx}>
                         <p>{idx + 1})</p>
                         <p>"<span>{searchWord}</span>"</p>
                         <p onClick={() => props.searchAgain(searchWord)}>Search Again</p>
