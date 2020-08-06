@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/edea_souncloud/static/css/main.2d097f07.chunk.css",
+    "main.js": "/edea_souncloud/static/js/main.c1033535.chunk.js",
+    "main.js.map": "/edea_souncloud/static/js/main.c1033535.chunk.js.map",
+    "runtime-main.js": "/edea_souncloud/static/js/runtime-main.c9fb009e.js",
+    "runtime-main.js.map": "/edea_souncloud/static/js/runtime-main.c9fb009e.js.map",
+    "static/js/2.5cc4a8ba.chunk.js": "/edea_souncloud/static/js/2.5cc4a8ba.chunk.js",
+    "static/js/2.5cc4a8ba.chunk.js.map": "/edea_souncloud/static/js/2.5cc4a8ba.chunk.js.map",
+    "index.html": "/edea_souncloud/index.html",
+    "precache-manifest.d6a5518345aae70a0c78ed73c8397a77.js": "/edea_souncloud/precache-manifest.d6a5518345aae70a0c78ed73c8397a77.js",
+    "service-worker.js": "/edea_souncloud/service-worker.js",
+    "static/css/main.2d097f07.chunk.css.map": "/edea_souncloud/static/css/main.2d097f07.chunk.css.map",
+    "static/js/2.5cc4a8ba.chunk.js.LICENSE.txt": "/edea_souncloud/static/js/2.5cc4a8ba.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/edea_souncloud/static/media/tile.8ae731c0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9fb009e.js",
+    "static/js/2.5cc4a8ba.chunk.js",
+    "static/css/main.2d097f07.chunk.css",
+    "static/js/main.c1033535.chunk.js"
+  ]
+}
