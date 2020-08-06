@@ -1,0 +1,72 @@
+.nav-logo{
+    content: url(../../images/SC_logo.png);
+}
+
+.repeat{
+    content: url(../../images/repeat.svg);
+    width: 15px;
+    margin-right: 5px;
+}
+
+.downloads{
+    content: url(../../images/download.svg);
+    width: 15px;
+    margin-right: 5px;
+}
+
+.star{
+    content: url(../../images/star.svg);
+    width: 15px;
+    margin-right: 5px;
+}
+
+.arrow-down{
+    content: url(../../images/down-arrow.svg);
+    width: 15px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.arrow-up{
+    content: url(../../images/down-arrow.svg);
+    transform: rotate(180deg);
+    width: 15px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.list-btn{
+    content: url(../../images/list.svg);
+    width: 30px;
+    transition: 0.3s ease;
+    margin-right: 15px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.tile-btn{
+    content: url(../../images/tile.svg);
+    width: 30px;
+    transition: 0.3s ease;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.next{
+    content: url(../../images/next.svg);
+    width: 35px;
+    transition: 0.3s ease;
+
+    &:hover{
+        cursor: pointer;
+        // width: 40px;
+    }
+}

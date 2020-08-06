@@ -1,0 +1,23 @@
+.active-track-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.658);
+
+    .active-track-modal{
+        width: 30%;
+        height: fit-content;
+
+        & img {
+            width: 100%;
+
+            &:hover{
+                cursor: pointer;
+                border: 1.5px solid #ff5500;
+            }
+        }
+    }
+}
