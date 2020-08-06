@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/edea_souncloud/static/css/main.c695a044.chunk.css",
-    "main.js": "/edea_souncloud/static/js/main.3de8c9d9.chunk.js",
-    "main.js.map": "/edea_souncloud/static/js/main.3de8c9d9.chunk.js.map",
+    "main.js": "/edea_souncloud/static/js/main.2d06d6d3.chunk.js",
+    "main.js.map": "/edea_souncloud/static/js/main.2d06d6d3.chunk.js.map",
     "runtime-main.js": "/edea_souncloud/static/js/runtime-main.c9fb009e.js",
     "runtime-main.js.map": "/edea_souncloud/static/js/runtime-main.c9fb009e.js.map",
     "static/js/2.62a1a7c7.chunk.js": "/edea_souncloud/static/js/2.62a1a7c7.chunk.js",
     "static/js/2.62a1a7c7.chunk.js.map": "/edea_souncloud/static/js/2.62a1a7c7.chunk.js.map",
     "index.html": "/edea_souncloud/index.html",
-    "precache-manifest.d1e74107a0f1e3ff69dc0eaef3a9691d.js": "/edea_souncloud/precache-manifest.d1e74107a0f1e3ff69dc0eaef3a9691d.js",
+    "precache-manifest.35bc4811c152f2512b68d13efa197151.js": "/edea_souncloud/precache-manifest.35bc4811c152f2512b68d13efa197151.js",
     "service-worker.js": "/edea_souncloud/service-worker.js",
     "static/css/main.c695a044.chunk.css.map": "/edea_souncloud/static/css/main.c695a044.chunk.css.map",
     "static/js/2.62a1a7c7.chunk.js.LICENSE.txt": "/edea_souncloud/static/js/2.62a1a7c7.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c9fb009e.js",
     "static/js/2.62a1a7c7.chunk.js",
     "static/css/main.c695a044.chunk.css",
-    "static/js/main.3de8c9d9.chunk.js"
+    "static/js/main.2d06d6d3.chunk.js"
   ]
 }

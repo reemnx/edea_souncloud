@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "369d7bf129ab72636082f086634e21ba",
+    "revision": "e0bdbc7df39ac697421479accb711736",
     "url": "/edea_souncloud/index.html"
   },
   {
-    "revision": "c51c3b4200b5ee3443de",
+    "revision": "9e90bc11880f0c7f6e3e",
     "url": "/edea_souncloud/static/css/main.c695a044.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/edea_souncloud/static/js/2.62a1a7c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c51c3b4200b5ee3443de",
-    "url": "/edea_souncloud/static/js/main.3de8c9d9.chunk.js"
+    "revision": "9e90bc11880f0c7f6e3e",
+    "url": "/edea_souncloud/static/js/main.2d06d6d3.chunk.js"
   },
   {
     "revision": "f3fdbdaca093bcebdb41",
