@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/edea_souncloud/precache-manifest.a3530b703021f4123e6c7f10665c5c46.js"
+  "/edea_souncloud/precache-manifest.d1e74107a0f1e3ff69dc0eaef3a9691d.js"
 );
 
 self.addEventListener('message', (event) => {
